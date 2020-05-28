@@ -1,3 +1,4 @@
+fork from ijinxin
 [线上地址](https://ijinxin.github.io/)
 ## 功能简介
 hexo-theme-sky 是一款简洁轻量的 hexo 博客主题，主要包含以下功能：
