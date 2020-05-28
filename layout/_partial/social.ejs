@@ -18,19 +18,8 @@
     <% } %>
 
     <div class="footer-copyright">
-        <p class="time-line">
-            &copy;
-            <% current = date(Date.now(), 'YYYY') %>
-            <% if (config.since && config.since < current) { %>
-                <%- config.since %> -
-            <% } %>
-            <%- current %>
-            &nbsp;<i class="iconfont icon-heart"></i>&nbsp;
-            <a target="_blank" href="https://github.com/iJinxin"><%- config.author %></a>
-        </p>
         <p class="theme-info">
-            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme -
-            <a target="_blank" href="https://github.com/iJinxin/hexo-theme-sky">Sky</a>
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a> 
         </p>
     </div>
 </footer>
